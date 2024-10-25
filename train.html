@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="style_train.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Train Ticket Booking</h1>
+        <form id="trainBookingForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="train">Select Train Class:</label>
+            <select id="train" name="train">
+                <option value="sleeper">Sleeper Class (SL) - ₹200</option>
+                <option value="ac_chair_car">AC Chair Car (CC) - ₹500</option>
+                <option value="ac_2_tier">AC 2-Tier (2A) - ₹1,200</option>
+                <option value="ac_3_tier">AC 3-Tier (3A) - ₹800</option>
+            </select>
+
+            <label for="seats">Number of Seats:</label>
+            <input type="number" id="seats" name="seats" min="1" max="10" required>
+
+            <button type="submit">Book Ticket</button>
+        </form>
+
+        <div id="summary"></div>
+    </div>
+
+    <script src="script_train.js"></script>
+</body>
+</html>

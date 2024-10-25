@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fast Travels</title>
+    <link rel="stylesheet" href="ac.css">
+</head>
+<body>
+    <header>
+        <h1>Fast Travels</h1>
+        <nav>
+            <a href="Fast_Tavels.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>
+            Have questions or need assistance? Feel free to get in touch with us using the form below or reach us directly at:
+        </p>
+        <ul>
+            <li>Email: support@fasttravels.com</li>
+            <li>Phone: +91xxx</li>
+            <li>Address: 123 Fast Travels, India</li>
+        </ul>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fast Travels. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(train_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 166, 255);
+    box-shadow: inset;
+    backdrop-filter: brightness(40%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    color: rgb(0, 166, 255);
+    box-shadow: inset;
+    backdrop-filter: brightness(40%);
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #218838;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: cyan;
+}
+
+#summary {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
